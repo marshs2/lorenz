@@ -51,8 +51,14 @@ table {
 /* CSS Reset Ends */
 
 /* Global Styles */
+/*Custom Fonts*/
+@font-face {
+	font-family: 'ApercuRegular';
+	src : url('../assets/fonts/apercu_regular_pro.otf');
+}
 /* Stephen */
 
 
 /* Santhosh */
+
 
