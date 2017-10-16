@@ -62,10 +62,6 @@ table {
 	src: url('../assets/fonts/Apercu-Bold.otf');
 }
 /* Stephen */
-a, a:focus, a:hover, a:visited, a:active {
-	text-decoration: none !important;
-}
-
 *:focus {
     outline: none;
 }
