@@ -56,11 +56,26 @@ nav a:hover {
 		background-color: rgba(19, 82, 162, 1);
 		color: rgba(255, 255, 255, 1);
 		padding: 6% 6.5%;
+		padding-top: 2%;
 		font-family: 'ApercuRegular';
+	}
+	.twitter .twitty{
+		margin: 0 auto;
+		max-width: 100px;
+		max-height: 100px;
+	}
+
+	.twitter .user{
+		text-transform: uppercase;
+		margin: 3% 0;
+		font-size: 0.75em;
+		font-family: 'ApercuRegular';
+		font-weight: 600;
+		letter-spacing: 5px;
 	}
 	.twitter .tweet{
 		font-size: 1.25em;
-		margin: 5% 0;
+		margin: 3% 0;
 	}
 	.twitter .tweet .date{
 		font-family: 'ApercuRegular';
@@ -107,3 +122,26 @@ nav a:hover {
 			box-shadow: none;
 			transform: translate(4px, 4px);
 		}
+
+/*****************************************************************************/
+/* Mobile View XS */
+/*****************************************************************************/
+@media (max-width: 750px){
+	/*************************************************************************/
+	/* Twitter */
+	/*************************************************************************/
+	.twitter .tweet{
+		margin: 8% 0;
+	}
+}
+/*****************************************************************************/
+/* Mobile View SM */
+/*****************************************************************************/
+@media (max-width: 990px) and (min-width: 751px){
+	/*************************************************************************/
+	/* Twitter */
+	/*************************************************************************/
+	.twitter .tweet{
+		margin: 8% 0;
+	}
+}
