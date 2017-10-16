@@ -1,5 +1,6 @@
 
 /* Stephen */
+/* Links */
 nav a {
 	text-decoration: none;
 	color: inherit;
@@ -22,6 +23,13 @@ nav a:hover {
 }
 .parent-nav {
 	background-color: #fff;
+}
+/* SVG */
+.svg-img {
+	position: fixed;
+    z-index: 1;
+	width: 100px;
+	height: 100px;
 }
 /* Santhosh */
 /*******************************************************************************/
