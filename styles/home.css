@@ -3,6 +3,19 @@
 
 
 /* Santhosh */
-div{
-	font-family: 'ApercuRegular';
+/*******************************************************************************/
+/* LOV */
+/*******************************************************************************/
+.LOV{
+	background-color: #ffd464;
+}
+.LOV .LOVWrapper{
+	max-width: 824px;
+	margin: 10% auto;
+}
+
+.LOV .LOVWrapper img{
+	width: 100%;
+	height: auto;
+
 }
