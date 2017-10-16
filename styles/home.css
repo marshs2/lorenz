@@ -112,16 +112,75 @@ nav a:hover {
 /*******************************************************************************/
 /* LOV */
 /*******************************************************************************/
-.LOV{
-	background-color: #ffd464;
-}
-.LOV .LOVWrapper{
-	max-width: 824px;
-	margin: 10% auto;
-}
+	.LOV{
+		background-color: #ffd464;
+	}
+	.LOV .LOVWrapper{
+		max-width: 824px;
+		margin: 10% auto;
+	}
 
-.LOV .LOVWrapper img{
-	width: 100%;
-	height: auto;
+	.LOV .LOVWrapper img{
+		width: 100%;
+		height: auto;
 
-}
+	}
+
+/******************************************************************************/
+/* Tweets */
+/******************************************************************************/
+	.twitter{
+		background-color: rgba(19, 82, 162, 1);
+		color: rgba(255, 255, 255, 1);
+		padding: 6% 6.5%;
+		font-family: 'ApercuRegular';
+	}
+	.twitter .tweet{
+		font-size: 1.25em;
+		margin: 5% 0;
+	}
+	.twitter .tweet .date{
+		font-family: 'ApercuRegular';
+		padding-bottom: 12px;
+		font-size: 0.75em;
+	}
+
+	.tweet p{
+		line-height: 2em;
+	}
+
+	.twitter .tweet .tag a, .twitter .tweet .link a{
+		text-decoration: none;
+		color: rgba(255, 255, 255,1);
+	}
+
+	.twitter .tweet .tag a,.twitter .tweet .link a{
+		border-bottom: 1px solid rgba(255, 255,255,1);
+		margin-bottom: 1px;
+		transition: all 0.5s;
+	}
+
+	.twitter .tweet .tag a:hover, .twitter .tweet .link a:hover{
+		border-bottom: 1px solid rgba(255, 255, 255, .5);
+
+		color: rgba(255,255,255,0.5);
+
+	}
+
+	/* Lorenzo Button */
+		.lorenzoBtn{
+			text-transform: uppercase;
+			border: 1px solid rgba(255, 255, 255, 1);
+			width: 224px;
+			margin: 0 auto;
+			text-align: center;
+			padding: 25px;
+			box-shadow: 4px 4px rgba(255, 255, 255,1);
+			transition: all 0.2s;
+		}
+
+		.lorenzoBtn:hover{
+			opacity: 0.5;
+			box-shadow: none;
+			transform: translate(4px, 4px);
+		}
