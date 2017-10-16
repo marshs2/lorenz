@@ -1,7 +1,28 @@
 
 /* Stephen */
+nav a {
+	text-decoration: none;
+	color: inherit;
+}
+nav a:hover {
+	text-decoration: none;
+	color: #A4A5A4;
+}
+.navigation {
+	height: 100px;
+	background-color: #FFFFFF;
+}
 
-
+.nav-link {
+	width: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 38px;
+	font-size: 1.1em;
+}
+.parent-nav {
+	background-color: #fff;
+}
 /* Santhosh */
 div{
 	font-family: 'ApercuRegular';
