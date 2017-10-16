@@ -154,6 +154,7 @@ nav a:hover {
 	.twitter .tweet{
 		font-size: 1.25em;
 		margin: 3% 0;
+		word-wrap: break-word;
 	}
 	.twitter .tweet .date{
 		font-family: 'ApercuRegular';
@@ -201,6 +202,83 @@ nav a:hover {
 			transform: translate(4px, 4px);
 		}
 
+/******************************************************************************/
+/* Footer */
+/******************************************************************************/
+	.footer{
+		padding: 3% 0 5% 0;
+		background-color: rgba(255, 255, 255, 1);
+		text-align: center;
+
+	}
+
+	.footer > div{
+		margin-top: 3%;
+	}
+
+	.footer .getInTouch{
+		margin-top: 0;
+	}
+	.footer .getInTouch span{
+		text-transform: uppercase;
+    	letter-spacing: 4px;
+    	margin-top: 5%;
+    	font-size: 0.75em;
+    	font-weight: 600;
+	}
+
+	.footer .getInTouch .footerIcon{
+		width: 106px;
+		height: 106px;
+		background: url('../assets/images/icon_contact.png') no-repeat;
+		margin: 0 auto;
+	}
+
+	.footer .contact {
+		font-size: 2em;
+	}
+
+	.footer .contact .phone{
+		margin-bottom: 1%;
+	}
+
+	.footer .contact .mail a, .footer .bottom a{
+		border-bottom: 1px solid black;
+		margin-bottom: 3px;
+		transition: all 0.5s;
+		text-decoration: none;
+		color: inherit;
+	}
+
+	.footer .contact .mail a:hover, .footer .bottom a:hover{
+		border-bottom: 1px solid rgba(48, 48, 47, .5);
+		color: rgba(48, 48, 47, .5);
+		text-decoration: none;
+	}
+
+
+	.footer .social .twitterIcon{
+		background: url('../assets/images/icon_socials.png') no-repeat -60px;
+		width: 60px;
+		height: 60px;
+		margin: 0 auto;
+		background-size: cover;
+		display: inline-block;
+	}
+
+
+	.footer .social .instagramIcon{
+		background: url('../assets/images/icon_socials.png') no-repeat -5px;
+		width: 60px;
+		height: 60px;
+		margin: 0 auto;
+		background-size: cover;
+		display: inline-block;
+	}
+
+	.footer .social a:hover{
+		text-decoration: none;
+	}
 /*****************************************************************************/
 /* Mobile View XS */
 /*****************************************************************************/
