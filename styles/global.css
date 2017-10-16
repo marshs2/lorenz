@@ -62,7 +62,9 @@ table {
 	src: url('../assets/fonts/Apercu-Bold.otf');
 }
 /* Stephen */
-
+*:focus {
+    outline: none;
+}
 
 /* Santhosh */
 /*Global Font*/
