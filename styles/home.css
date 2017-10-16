@@ -211,6 +211,10 @@ nav a:hover {
 	.twitter .tweet{
 		margin: 8% 0;
 	}
+
+	.twitter .lorenzoBtn{
+		margin: 12% auto;
+	}
 }
 /*****************************************************************************/
 /* Mobile View SM */
@@ -221,5 +225,9 @@ nav a:hover {
 	/*************************************************************************/
 	.twitter .tweet{
 		margin: 8% 0;
+	}
+
+	.twitter .lorenzoBtn{
+		margin: 12% auto;
 	}
 }
