@@ -31,6 +31,83 @@ nav a:hover {
 	width: 100px;
 	height: 100px;
 }
+/* Hello Sec */
+.hello-sec {
+	font-family: 'ApercuRegular';
+	background-color: #074AA8;
+    text-align: center;
+}
+
+.eyes {
+	display: block;
+    margin: 0 auto;
+	width: 107px;
+    margin-top: 35px;
+    height: 100px;
+}
+
+.eyes~h2 {
+	color: white;
+    text-transform: uppercase;
+    font-size: small;
+}
+
+.about-txt {
+	font-family: 'ApercuRegular';
+	color: white;
+    width: 43%;
+    font-size: xx-large;
+    margin: 0 auto;
+    margin-top: 4%;
+    text-align: start;
+}
+.eyes~h5 {
+    font-size: initial;
+    margin-top: 2%;
+}
+/* View Profile button */
+.button-style:hover {
+	width: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 38px;
+	font-size: 1.1em;
+    border: 1px solid #83A5D4;
+	color: #83A5D4;
+    width: 17%;
+    height: 70px;
+	background-color: #074AA8;
+    box-shadow: unset;
+	position: relative;
+    left: 1%;
+    bottom: 10%;
+}
+.button-style {
+	width: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 38px;
+	font-size: 1.1em;
+    border: 1px solid white;
+	color: white;
+    width: 17%;
+    height: 70px;
+	background-color: #074AA8;
+	box-shadow: 4px 4px 0px white;
+}
+.view-profile {
+	margin: 30px 0;
+    margin-bottom: 5%;
+}
+
+.email a {
+	color: white;
+    text-decoration: underline !important;
+}
+.email a:hover {
+	color: #668FC9;
+    text-decoration: underline !important;
+}
 /* Santhosh */
 /*******************************************************************************/
 /* LOV */
