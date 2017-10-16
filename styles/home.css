@@ -103,10 +103,12 @@ nav a:hover {
 .email a {
 	color: white;
     text-decoration: underline !important;
+	transition: all 0.5s;
 }
 .email a:hover {
 	color: #668FC9;
     text-decoration: underline !important;
+	transition: all 0.5s;
 }
 /* Santhosh */
 /*******************************************************************************/
