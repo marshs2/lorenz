@@ -60,6 +60,7 @@ nav a:hover {
 	}
 	.twitter .tweet{
 		font-size: 1.25em;
+		margin: 5% 0;
 	}
 	.twitter .tweet .date{
 		font-family: 'ApercuRegular';
@@ -88,3 +89,21 @@ nav a:hover {
 		color: rgba(255,255,255,0.5);
 
 	}
+
+	/* Lorenzo Button */
+		.lorenzoBtn{
+			text-transform: uppercase;
+			border: 1px solid rgba(255, 255, 255, 1);
+			width: 224px;
+			margin: 0 auto;
+			text-align: center;
+			padding: 25px;
+			box-shadow: 4px 4px rgba(255, 255, 255,1);
+			transition: all 0.2s;
+		}
+
+		.lorenzoBtn:hover{
+			opacity: 0.5;
+			box-shadow: none;
+			transform: translate(4px, 4px);
+		}
