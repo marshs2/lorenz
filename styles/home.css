@@ -227,6 +227,7 @@ nav a:hover {
 		height: 100%;
 		display: none;
 		transition: all 2s;
+		top: 0px;
 	}
 
 	.workSelection .workSection:hover .overlay{
@@ -349,6 +350,20 @@ nav a:hover {
 			opacity: 1;
 		}
 
+		.workSelection .overlay{
+			position: initial;
+			display: block;
+			margin: 5% 0;
+    		font-size: 0.8em;
+		}
+
+		.workSelection .overlay .overlayContent{
+			text-align: left;
+		}
+
+		.workSelection .overlay .overlayContent .print{
+			margin-top: 2%;
+		}
 }
 /*****************************************************************************/
 /* Mobile View SM */
