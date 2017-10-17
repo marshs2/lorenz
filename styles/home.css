@@ -201,6 +201,54 @@ nav a:hover {
 			box-shadow: none;
 			transform: translate(4px, 4px);
 		}
+/******************************************************************************/
+/* Work Selection */
+/******************************************************************************/
+	.workSelection{
+		background-color: #ddd;
+		padding: 5% 7.5%;
+	}
+
+	.workSection{
+		position: relative;
+	}
+
+	.workSection img{
+		transition: all 0.5s;
+	}
+
+	.workSection:hover img{
+		opacity: 0.15;
+	}
+
+	.workSelection .overlay{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		display: none;
+		transition: all 2s;
+	}
+
+	.workSelection .workSection:hover .overlay{
+		display: block;
+	}
+
+	.workSelection .overlay .overlayContent{
+		position: relative;
+		top: 38%;
+		font-size: 1.5em;
+	}
+
+	.workSelection .overlay .overlayContent .ring{
+		width: 18px;
+		height: 18px;
+		border-radius: 100px;
+		border: 5px solid black;
+		margin: 2% auto;
+	}
+	.workSelection .overlay .overlayContent .print{
+		font-size: 0.6em;
+	}
 
 /******************************************************************************/
 /* Footer */
@@ -286,13 +334,21 @@ nav a:hover {
 	/*************************************************************************/
 	/* Twitter */
 	/*************************************************************************/
-	.twitter .tweet{
-		margin: 8% 0;
-	}
+		.twitter .tweet{
+			margin: 8% 0;
+		}
 
-	.twitter .lorenzoBtn{
-		margin: 12% auto;
-	}
+		.twitter .lorenzoBtn{
+			margin: 12% auto;
+		}
+
+	/*************************************************************************/
+	/* Work Selection */
+	/*************************************************************************/
+		.workSection:hover img{
+			opacity: 1;
+		}
+
 }
 /*****************************************************************************/
 /* Mobile View SM */
@@ -308,4 +364,12 @@ nav a:hover {
 	.twitter .lorenzoBtn{
 		margin: 12% auto;
 	}
+
+	/*************************************************************************/
+	/* Work Selection */
+	/*************************************************************************/
+		.workSection:hover img{
+			opacity: 1;
+		}
+
 }
