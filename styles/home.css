@@ -198,7 +198,7 @@ nav a:hover {
 
 		.lorenzoBtn:hover{
 			opacity: 0.5;
-			box-shadow: none;
+			box-shadow: none !important;
 			transform: translate(4px, 4px);
 		}
 /******************************************************************************/
@@ -249,6 +249,13 @@ nav a:hover {
 	}
 	.workSelection .overlay .overlayContent .print{
 		font-size: 0.6em;
+	}
+
+	.workSelection .lorenzoBtn{
+		margin: 5% auto 2%;
+		box-shadow: 4px 4px rgba(0, 0, 0,1);
+		border: 1px solid rgba(0, 0, 0, 1);
+
 	}
 
 /******************************************************************************/
