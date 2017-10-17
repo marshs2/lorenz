@@ -2,4 +2,33 @@
 
 
 /* Santhosh */
+/********************************************************************************/
+/* Work Gallery */
+/********************************************************************************/
 
+	.workGallery{
+		background-color: rgb(241, 240, 238);
+		padding: 3% 7%;
+	}
+
+	.workIcon > div{
+		max-height: 100px;
+	}
+
+	.workGallery .workIcon{
+		max-width: 110px;
+		margin: 0 auto;
+	}
+
+	/****************************************************************************/
+	/* Work Section */
+	/****************************************************************************/
+		.workGallery .workSelection{
+			padding: 0;
+			background-color: transparent;
+			margin-top: 3%;	
+		}
+
+		.workGallery .workSelection .workSection{
+			padding: 1%;
+		}

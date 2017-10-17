@@ -76,3 +76,118 @@ body{
 	margin: 0;
 }
 
+.pad0{
+	padding: 0;
+}
+
+/****************************************************************/
+/* Custom fonts */
+/****************************************************************/
+
+	.user{
+		text-transform: uppercase;
+		margin: 3% 0;
+		font-size: 0.75em;
+		font-family: 'ApercuRegular';
+		font-weight: 600;
+		letter-spacing: 5px;
+	}
+
+/******************************************************************************/
+/* Work Selection */
+/******************************************************************************/
+	.workSelection{
+		background-color: #ddd;
+		padding: 5% 7.5%;
+	}
+
+	.workSection{
+		position: relative;
+	}
+
+	.workSection img{
+		transition: all 0.5s;
+	}
+
+	.workSection:hover img{
+		opacity: 0.15;
+	}
+
+	.workSelection .overlay{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		display: none;
+		transition: all 2s;
+		top: 0px;
+	}
+
+	.workSelection .workSection:hover .overlay{
+		display: block;
+	}
+
+	.workSelection .overlay .overlayContent{
+		position: relative;
+		top: 38%;
+		font-size: 1.5em;
+	}
+
+	.workSelection .overlay .overlayContent .ring{
+		width: 18px;
+		height: 18px;
+		border-radius: 100px;
+		border: 5px solid black;
+		margin: 2% auto;
+	}
+	.workSelection .overlay .overlayContent .print{
+		font-size: 0.6em;
+	}
+
+	.workSelection .lorenzoBtn{
+		margin: 5% auto 2%;
+		box-shadow: 4px 4px rgba(0, 0, 0,1);
+		border: 1px solid rgba(0, 0, 0, 1);
+
+	}
+
+/*****************************************************************************/
+/* Mobile View XS */
+/*****************************************************************************/
+@media (max-width: 750px){
+	
+	/*************************************************************************/
+	/* Work Selection */
+	/*************************************************************************/
+		.workSection:hover img{
+			opacity: 1;
+		}
+
+		.workSelection .overlay{
+			position: initial;
+			display: block;
+			margin: 5% 0;
+    		font-size: 0.8em;
+		}
+
+		.workSelection .overlay .overlayContent{
+			text-align: left;
+		}
+
+		.workSelection .overlay .overlayContent .print{
+			margin-top: 2%;
+		}
+}
+/*****************************************************************************/
+/* Mobile View SM */
+/*****************************************************************************/
+@media (max-width: 990px) and (min-width: 751px){
+
+	/*************************************************************************/
+	/* Work Selection */
+	/*************************************************************************/
+		.workSection:hover img{
+			opacity: 1;
+		}
+
+}
+
