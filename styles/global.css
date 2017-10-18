@@ -109,6 +109,9 @@ body{
 		position: relative;
 	}
 
+	.workSection a{
+		color: #333;
+	}
 	.workSection img{
 		transition: all 0.5s;
 	}
