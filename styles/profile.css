@@ -2,4 +2,87 @@
 
 
 /* Santhosh */
+/*********************************************************************************/
+/* Profile Details */
+/*********************************************************************************/
+	.profileDt{
+		background-color: rgba(255, 212, 100, 1);
+		padding: 10% 10% 3% 10%;
+		font-family: 'ApercuRegular';
+	}
 
+	.profileDt .profileImg{
+		max-width: 612px;
+		margin: 0 auto;
+	}
+
+	.profileDt .caption{
+		margin: 1% auto;
+		font-size: 1.1em;
+	}
+
+	.profileDt .caption a{
+		text-decoration: none;
+		border-bottom: 1px solid rgba(0,0,0,1);
+		margin-bottom: 2px;
+		color: #333;
+	}
+
+	.profileDt .caption a:hover{
+		border-bottom: 1px solid rgba(48, 48, 47, .5);
+		color: rgba(48, 48, 47, .5);
+	}
+
+	.profileDt .profileInfo{
+		padding: 5% 15%; 
+		font-size: 1.5em;
+	}
+
+
+	.profileDt .profileInfo p{
+		margin-bottom: 5%;
+	}
+
+/**********************************************************************************/
+/* Mobile Small XS */
+/**********************************************************************************/
+@media (max-width: 750px){
+	.profileDt{
+		padding: 10% 5%
+	}
+
+	.profileDt .caption{
+		font-size: 0.9em;
+	}
+
+	.profileDt .profileInfo{
+		padding: 18% 0%;
+		line-height: 30px;
+	}
+
+	.profileDt .profileInfo p{
+		margin-bottom: 10%;
+	}
+}
+
+/*************************************************************************************/
+/* Mobile Very Small */
+/*************************************************************************************/
+@media (min-width: 751px) and (max-width: 990px){
+	.profileDt{
+		padding: 10% 10%;
+	}
+
+	.profileDt .caption{
+		font-size: 0.9em;
+	}
+
+	.profileDt .profileInfo{
+		padding: 18% 0%;
+		line-height: 30px;
+	}
+
+	.profileDt .profileInfo p{
+		margin-bottom: 10%;
+	}
+}
