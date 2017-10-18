@@ -1,6 +1,81 @@
 /* Stephen */
+/* Links */
+nav a {
+	text-decoration: none;
+	color: inherit;
+}
+nav a:hover {
+	text-decoration: none;
+	color: #A4A5A4;
+}
+.navigation {
+	height: 100px;
+	background-color: #FFFFFF;
+}
 
+.nav-link {
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 38px;
+	font-size: 1.1em;
+}
+.parent-nav {
+	background-color: #fff;
+}
+/* SVG */
+.svg-img {
+	position: fixed;
+    z-index: 1;
+	width: 100px;
+	height: 100px;
+}
+/* Mobile */
+@media (max-width: 750px) {
+	/* Header Section */
+	.svg-img {
+		margin: 0 auto;
+		position: relative;
+	}
 
+	.navigation {
+		text-align: center;
+		height: 33px;
+	}
+
+	hr {
+		margin-top: 0px;
+	}
+
+	body {
+		overflow-x: hidden;
+	}
+
+	.about-txt {
+		font-size: x-large;
+	}
+}
+
+/* Tab */
+@media (max-width: 990px) and (min-width: 751px) {
+	/* Header Section */
+	.svg-img {
+		margin: 0 auto;
+		position: relative;
+	}
+
+	.navigation {
+		text-align: center;
+		height: 33px;
+	}
+
+	hr {
+		margin-top: 0px;
+	}
+
+	body {
+		overflow-x: hidden;
+	}
+}
 /* Santhosh */
 /********************************************************************************/
 /* Work Gallery */
