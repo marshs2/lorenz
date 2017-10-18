@@ -1,0 +1,67 @@
+/*Stephen */
+
+
+/*Santhosh*/
+/**************************************************************************************/
+/* Sidebar */
+/**************************************************************************************/
+	.sidebar{
+		position: fixed;
+		width: 100px !important;
+		height: 100%;
+		min-height: 500px;
+		top: 0;
+	}
+
+	.sidebar .buttons{
+		height: 200px;
+		margin: 150px auto;
+	}
+
+	.sidebar .buttons p{
+		margin-bottom: 15px;
+	}
+
+	.triangleForward{
+		width: 100px;
+		height: 44px;
+		background: url('../assets/images/icons_nextprevback.png') no-repeat ;
+		background-position: -100px 0px;
+	}
+
+	.triangleForward.disable{
+		opacity: 0.5;
+	}
+	.triangleBackward{
+		width: 100px;
+		height: 44px;
+		background: url('../assets/images/icons_nextprevback.png') no-repeat ;
+		background-position: 0px 0px;
+	}
+
+	.tiles{
+		width: 100px;
+		height: 44px;
+		background: url('../assets/images/icons_nextprevback.png') no-repeat ;
+		background-position: -200px 0px;
+	}
+
+/*********************************************************************/
+/* Mobile XS */
+/*********************************************************************/
+@media (max-width: 750px){
+	 .sidebar{
+	 	display: none;
+	 }
+
+}
+
+/*********************************************************************/
+/* Mobile SM */
+/*********************************************************************/
+@media (max-width: 990px){
+	 .sidebar{
+	 	display: none;
+	 }
+	
+}
