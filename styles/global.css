@@ -66,6 +66,10 @@ table {
     outline: none;
 }
 
+body {
+	overflow-x: hidden;
+}
+
 /* Santhosh */
 /*Global Font*/
 body{
@@ -144,7 +148,7 @@ body{
 	}
 
 	.workSelection .lorenzoBtn{
-		margin: 5% auto 2%;
+		margin: 5% auto 5%;
 		box-shadow: 4px 4px rgba(0, 0, 0,1);
 		border: 1px solid rgba(0, 0, 0, 1);
 
