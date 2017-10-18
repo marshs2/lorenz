@@ -2,4 +2,75 @@
 
 
 /* Santhosh */
+/**********************************************************************************/
+/* Journal Content */
+/**********************************************************************************/
+	.journalContentWrapper{
+		background-color: rgb(241, 240, 238);
+	}
+
+	.journalContent{
+		display: inline-block;
+		margin: auto;
+		font-family: 'ApercuRegular'
+	}
+
+	.journalContent > div{
+		margin: 0 auto;
+	}
+	.journalContent .journalIcon{
+		width: 107px;
+		height: 107px;
+		margin: 0 auto;	
+	}
+
+	.journalContent .journal{
+		margin: 13% 0;
+	}
+
+	.journalContent .journal .heading{
+		font-size: 2em;
+	}
+
+	.journalContent .journal .date{
+		font-size: 1.25em;
+    	margin-top: 2%;
+    	font-weight: 100;
+	}
+
+	.journalContent .journal .text{
+		margin: 5% 0;
+		font-size: 1.5em;
+		line-height: 35px;
+	}
+
+	.journalContent .journal .text a{
+		text-decoration: none;
+		color: #333;
+		border-bottom: 2px solid #333;
+		margin-bottom: 2px;
+	}
+
+	.journalContent .journal .text a:hover{
+		text-decoration: none;
+		color: #333;
+		border-bottom: 1px solid #333;
+		opacity: .5;
+		margin-bottom: 2px;
+	}
+
+	.journalContent .journal img{
+		margin: 0 0 5% 0;
+	}
+
+
+/***********************************************************************************/
+/* Mobile Small XS */
+/***********************************************************************************/
+@media (max-width: 750px){
+	.journalContent{
+	}
+
+}
+
 
