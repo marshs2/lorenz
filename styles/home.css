@@ -73,7 +73,7 @@ nav a:hover {
 	font-size: 1.1em;
     border: 1px solid #83A5D4;
 	color: #83A5D4;
-    width: 17%;
+    width: 250px;
     height: 70px;
 	background-color: #074AA8;
     box-shadow: unset;
@@ -87,7 +87,7 @@ nav a:hover {
 	font-size: 1.1em;
     border: 1px solid white;
 	color: white;
-    width: 17%;
+    width: 250px;
     height: 70px;
 	background-color: #074AA8;
 	box-shadow: 4px 4px 0px white;
@@ -155,6 +155,49 @@ nav a:hover {
 .spaceout {
 	margin: 10px;
 }
+
+/* Work Section RWD */
+/* Mobile */
+@media (max-width: 750px) {
+	.work-container {
+		width: 100% !important;
+	}
+
+	.work-container:hover .overlayer {
+		opacity: 0;
+	}
+
+	.work-txt {
+		position: relative;
+		opacity: 1;
+		text-align: left;
+		margin-top: 10%;
+	}
+
+	.work-txt h5 {
+		font-size: 0.7em;
+	}
+
+	.overlayer {
+		opacity: 0;
+	}
+
+	.spaceout {
+		display: none;
+	}
+
+	/* Hello Section */
+	.about-txt {
+		width: 92%;
+	}
+
+	.button-style, .button-style:hover {
+		width: 72%
+	}
+}
+
+/* Tab */
+
 /* Santhosh */
 /*******************************************************************************/
 /* LOV */
