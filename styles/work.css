@@ -147,6 +147,10 @@ h2.main-text {
 	.about-txt {
 		font-size: x-large;
 	}
+
+	h2.main-text {
+		margin-top: 8px;
+	}
 }
 
 /* Tab */
@@ -168,6 +172,10 @@ h2.main-text {
 
 	body {
 		overflow-x: hidden;
+	}
+
+	h2.main-text {
+		margin-top: 8px;
 	}
 }
 /* Santhosh */
@@ -195,7 +203,7 @@ h2.main-text {
 		.workGallery .workSelection{
 			padding: 0;
 			background-color: transparent;
-			margin-top: 3%;	
+			margin: 1%;	
 		}
 
 		.workGallery .workSelection .workSection{
