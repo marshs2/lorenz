@@ -43,6 +43,18 @@
 		margin-bottom: 5%;
 	}
 
+	.profileDt .profileInfo p a{
+		text-decoration: none;
+		border-bottom: 1px solid rgba(0,0,0,1);
+		margin-bottom: 2px;
+		color: #333;
+	}
+
+	.profileDt .profileInfo p a:hover{
+		border-bottom: 1px solid rgba(48, 48, 47, .5);
+		color: rgba(48, 48, 47, .5);		
+	}
+
 /**********************************************************************************/
 /* Mobile Small XS */
 /**********************************************************************************/
