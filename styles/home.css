@@ -49,6 +49,7 @@ nav a:hover {
 	color: white;
     text-transform: uppercase;
     font-size: small;
+	letter-spacing: 5px;
 }
 
 .about-txt {
@@ -59,6 +60,7 @@ nav a:hover {
     margin: 0 auto;
     margin-top: 4%;
     text-align: start;
+	line-height: normal;
 }
 .eyes~h5 {
     font-size: initial;
@@ -156,6 +158,13 @@ nav a:hover {
 	margin: 10px;
 }
 
+/* Work Section */
+h2.main-text {
+	color: black !important;
+	margin-bottom: 75px;
+	letter-spacing: 5px;
+}
+
 /* Work Section RWD */
 /* Mobile */
 @media (max-width: 750px) {
@@ -212,6 +221,10 @@ nav a:hover {
 
 	body {
 		overflow-x: hidden;
+	}
+
+	.about-txt {
+		font-size: x-large;
 	}
 }
 
