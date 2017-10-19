@@ -38,7 +38,9 @@
 		background: url('../assets/images/icons_nextprevback.png') no-repeat ;
 		background-position: 0px 0px;
 	}
-
+	.triangleBackward.disable{
+		opacity: 0.5;
+	}
 	.tiles{
 		width: 100px;
 		height: 44px;
@@ -144,4 +146,20 @@
 	 .mainContent .text{
 	 	margin: 10% auto;
 	 }
+}
+
+/* Stephen */
+/* Nav numbers */
+.border-bot {
+	border-bottom: 1px solid black;
+	width: 30px;
+	margin: 0 auto;
+}
+
+.space {
+	padding: 20px 0 20px 0;
+}
+
+.page-comp {
+    margin-top: 80%;
 }
