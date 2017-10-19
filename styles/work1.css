@@ -103,6 +103,15 @@
     .mainContent img{
     	margin-bottom: 5%;
     }
+
+    .mainContent .captionImg{
+    	margin-bottom: 1%;
+    }
+
+    .mainContent .caption{
+    	font-weight: lighter;
+    	margin-bottom: 5%;
+    }
 /*********************************************************************/
 /* Mobile XS */
 /*********************************************************************/
