@@ -46,6 +46,72 @@
 		background-position: -200px 0px;
 	}
 
+/*************************************************************************************/
+/* Main Content */
+/*************************************************************************************/
+	.mainContentWrapper{
+		background-color: rgb(241, 240, 238);
+	}
+
+	.mainContent{
+		float: none !important;
+		margin: 12% auto 5%;
+		padding: 2% 0;
+		font-family: 'ApercuRegular';
+	}
+
+	.mainContent .heading{
+		font-size: 2em;
+		padding: 0 5%;
+	}
+
+	.mainContent .pattern{
+		background: url('../assets/images/patterns.png') no-repeat;
+		background-position: 0px 0px;
+		width: 85px;
+    	height: 20px;
+    	margin: 2% auto;
+	}
+
+	.mainContent .text{
+		float: none !important;
+		margin: 5% auto;
+		font-size: 1.3em;
+    	line-height: 35px;
+    }
+
+    .mainContent .text p{
+    	margin-bottom: 5%;
+    	padding: 0 2%;
+    }
+
+    .mainContent .text p.notes{
+    	font-size: 0.75em;
+    	font-weight: lighter;
+    }
+    .mainContent .text a{
+    	text-decoration: none;
+    	color: #333;
+    	border-bottom: 1px solid #333;
+    }
+
+    .mainContent .text a:hover{
+    	border-bottom: 1px solid rgba(48, 48, 47, .5);
+    	color: rgba(48, 48, 47, .5);
+    }
+
+    .mainContent img{
+    	margin-bottom: 5%;
+    }
+
+    .mainContent .captionImg{
+    	margin-bottom: 1%;
+    }
+
+    .mainContent .caption{
+    	font-weight: lighter;
+    	margin-bottom: 5%;
+    }
 /*********************************************************************/
 /* Mobile XS */
 /*********************************************************************/
@@ -54,6 +120,13 @@
 	 	display: none;
 	 }
 
+	 .mainContent .pattern{
+	 	margin: 10% auto;
+	 }
+	
+	 .mainContent .text{
+	 	margin: 10% auto;
+	 }
 }
 
 /*********************************************************************/
@@ -63,5 +136,12 @@
 	 .sidebar{
 	 	display: none;
 	 }
+
+	 .mainContent .pattern{
+	 	margin: 10% none;
+	 }
 	
+	 .mainContent .text{
+	 	margin: 10% auto;
+	 }
 }
